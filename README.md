@@ -54,7 +54,7 @@ pip install esptool
 ```
 esptool.py --chip esp32 -p /dev/tty(YourUSBPort) write_flash -z 0x1000 ./bootloader.bin 0x8000 ./partition-table.bin  0x10000 ./esp-code-recognition.bin
 ```
-#### How How to find YourUSBPort
+#### How to find YourUSBPort
 ```
 ls /dev/tty*
 ```
