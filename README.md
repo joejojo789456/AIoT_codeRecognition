@@ -60,6 +60,18 @@ ls /dev/tty*
 ```
 ![image](https://github.com/joejojo789456/AIoT_codeRecognition/assets/166804089/18f19d0f-66f7-4463-84af-a0ae7ba0e7db)
 
+#### 使用 Minicom 来查看ESP32的输出
+* 安装 Minicom
+```
+sudo apt-get install minicom
+sudo minicom -s
+```
+  * 在配置界面中，选择 "Serial port setup" 来设置串行端口参数。您需要设置以下几项：
+    * Serial Device: 修改为您的设备串行端口，例如 /dev/ttyUSB0。
+    * Bps/Par/Bits: 设置波特率（例如 115200）和其他通讯参数（通常为 8N1）。
+    * Exit: 退出配置界面。
+* 使用 Minicom 查看输出
+![image](https://github.com/joejojo789456/AIoT_codeRecognition/assets/166804089/cf630cf3-0903-4970-bf56-eeaa89158f4d)
 
 
 Espressif 晶片組上操作按鈕
