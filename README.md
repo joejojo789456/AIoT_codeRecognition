@@ -52,15 +52,18 @@ pip install esptool
 ```
 #### 燒錄韌體
 ```
-esptool.py --chip esp32 -p /dev/ttyYourUSBPort write_flash -z 0x1000 ./bootloader.bin 0x8000 ./partition-table.bin  0x10000 ./esp-code-recognition.bin
+esptool.py --chip esp32 -p /dev/tty(YourUSBPort) write_flash -z 0x1000 ./bootloader.bin 0x8000 ./partition-table.bin  0x10000 ./esp-code-recognition.bin
 ```
 
 Espressif 晶片組上操作按鈕
 ------------
+## QR-Code sample
 ![image](https://github.com/joejojo789456/AIoT_codeRecognition/assets/166804089/f10c0d56-5621-497c-af99-da5508591535)
 
+## camera recognition
 ![image](https://github.com/joejojo789456/AIoT_codeRecognition/assets/166804089/e4090c53-6dfd-4f83-82d8-9034c5ec0c85)
 
+## esp recognize and PC show the QR-Code numbers
 ![image](https://github.com/joejojo789456/AIoT_codeRecognition/assets/166804089/cf630cf3-0903-4970-bf56-eeaa89158f4d)
 
 
