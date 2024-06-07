@@ -54,6 +54,13 @@ pip install esptool
 ```
 esptool.py --chip esp32 -p /dev/tty(YourUSBPort) write_flash -z 0x1000 ./bootloader.bin 0x8000 ./partition-table.bin  0x10000 ./esp-code-recognition.bin
 ```
+#### How How to find YourUSBPort
+```
+ls /dev/tty*
+```
+![image](https://github.com/joejojo789456/AIoT_codeRecognition/assets/166804089/18f19d0f-66f7-4463-84af-a0ae7ba0e7db)
+
+
 
 Espressif 晶片組上操作按鈕
 ------------
