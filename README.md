@@ -1,5 +1,7 @@
 
-# AIoT_codeRecognition
+# AIoT_codeRecognition_Group 6
+Member: 112368029 陳沅昊/ 112368040 劉宇紘/ 112368098 謝嘉元
+
 guide line of code recognition
 
 適用於 Espressif 晶片組的 TensorFlow Lite Micro
