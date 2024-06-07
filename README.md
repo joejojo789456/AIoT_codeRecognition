@@ -52,7 +52,7 @@ pip install esptool
 ```
 #### 燒錄韌體
 ```
-esptool.py --chip esp32 -p /dev/tty(<font color=#008000>YourUSBPort</font>) write_flash -z 0x1000 ./bootloader.bin 0x8000 ./partition-table.bin  0x10000 ./esp-code-recognition.bin
+esptool.py --chip esp32 -p /dev/tty<font color=#008000>YourUSBPort</font> write_flash -z 0x1000 ./bootloader.bin 0x8000 ./partition-table.bin  0x10000 ./esp-code-recognition.bin
 ```
 
 Espressif 晶片組上操作按鈕
