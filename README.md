@@ -47,26 +47,6 @@ idf.py set-target esp32s3
 idf.py build
 ```
 
-About Tensorflow
-------------
-* Tensorflow
-  <img width="754" alt="image" src="https://github.com/itemhsu/AIoT_three/assets/25599185/114a8de1-478b-4569-a708-f66a3a43daa6">
-  <img width="499" alt="image" src="https://github.com/itemhsu/AIoT_three/assets/25599185/d095e23e-1306-4eed-ae2d-dbd5ca2aae6b">
-  <img width="735" alt="image" src="https://github.com/itemhsu/AIoT_three/assets/25599185/d1ddf900-aa76-4de4-af65-65dee0aa6f94">
-![image](https://github.com/itemhsu/AIoT_three/assets/25599185/67db8b2b-662b-4d96-95cb-595900a29774)
-
-
-
-* Tensorflow lite
-  <img width="789" alt="image" src="https://github.com/itemhsu/AIoT_three/assets/25599185/313a7449-5a9d-4b64-ad62-a1ce83e7e498">
-
-<img width="686" alt="image" src="https://github.com/itemhsu/AIoT_three/assets/25599185/7f47a6e8-1b76-4ab0-bcd9-acc69e995ee4">
-
-<img width="772" alt="image" src="https://github.com/itemhsu/AIoT_three/assets/25599185/7399a010-68cc-40ee-947c-fb597e9e565e">
-
-* Tensorflow micro
-![image](https://github.com/itemhsu/AIoT_three/assets/25599185/6159352a-cf2d-45c1-b66a-2ed386141c0b)
-
 
 建構範例 2 : micro_speech
 ------------
