@@ -71,7 +71,8 @@ sudo minicom -s
     * Bps/Par/Bits: 设置波特率（例如 115200）和其他通讯参数（通常为 8N1）。
     * Exit: 退出配置界面。
 * 使用 Minicom 查看输出
-![image](https://github.com/joejojo789456/AIoT_codeRecognition/assets/166804089/cf630cf3-0903-4970-bf56-eeaa89158f4d)
+  
+* ![image](https://github.com/joejojo789456/AIoT_codeRecognition/assets/166804089/cf630cf3-0903-4970-bf56-eeaa89158f4d)
 
 
 Espressif 晶片組上操作按鈕
