@@ -91,6 +91,8 @@ Espressif 晶片組上操作按鈕
 
 程式碼
 ------------
+
+```
 #include <ESP32QRCodeReader.h>
 
 // See available models on README.md or ESP32CameraPins.h
@@ -129,6 +131,7 @@ void setup()
   reader.beginOnCore(1);
   xTaskCreate(onQrCodeTask, "onQrCode", 4 * 1024, NULL, 4, NULL);
 }
+```
 
 
 
