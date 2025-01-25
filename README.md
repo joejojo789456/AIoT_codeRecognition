@@ -68,8 +68,8 @@ ls /dev/tty*
 sudo apt-get install minicom
 sudo minicom -s
 ```
-在配置介面中，選擇 "Serial port setup" 來設定串列埠參數。您需要設定以下幾項：
-Serial Device：修改為您的設備串列埠，例如 /dev/ttyUSB0。
+在配置介面中，選擇 "Serial port setup" 來設定串列埠參數。
+Serial Device：修改為設備串列埠，例如 /dev/ttyUSB0。
 Bps/Par/Bits：設定傳輸速率（例如 115200）及其他通訊參數（通常為 8N1）。
 Exit：退出配置介面。
 使用 Minicom 查看輸出。
